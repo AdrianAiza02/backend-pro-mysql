@@ -1,0 +1,1 @@
+module.exports.SEED = "jdt-tkm-dfs21235321";

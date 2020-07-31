@@ -13,9 +13,10 @@ app.use(bodyParser.json());
 
 //importar rutas
 var usuarioRoutes = require('./routes/usuario.routes');
+var loginRoutes = require('./routes/login.routes');
 //rutas
 app.use('/usuario',usuarioRoutes);
-
+app.use('/login',loginRoutes);
 //peticiones
 app.listen(3000, () => {
     console.log('Express server corriendo en el puerto 3000: \x1b[32m%s\x1b[0m', 'online');
