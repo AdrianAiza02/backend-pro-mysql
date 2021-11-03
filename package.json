@@ -16,6 +16,6 @@
     "jsonwebtoken": "^8.5.1",
     "mysql": "^2.18.1",
     "nodemon": "^2.0.4",
-    "validator": "^13.1.1"
+    "validator": "^13.7.0"
   }
 }
